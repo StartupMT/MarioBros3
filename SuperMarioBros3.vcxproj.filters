@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{06250ddd-d096-4707-a466-31c85084f294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{43e5cefe-7663-40d6-a194-d126bf8330bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sences">
+      <UniqueIdentifier>{86ade1ed-2999-426c-a99a-0b02534b1afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXMl">
+      <UniqueIdentifier>{5966f949-bf17-4890-9b0b-6a0af42dfa5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{5a40fc21-a108-41af-8059-c1456cef771a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{8047e6d6-e6c5-428b-b620-75f37bb1333d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\GUI">
+      <UniqueIdentifier>{7b6c0f27-3d62-4719-840a-74b87e1cebe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Block">
+      <UniqueIdentifier>{1a49f1e6-5dc6-400f-9b42-7cd7ef1ef855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{c9cadd77-1e08-4a49-9591-cdf780de2378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{19cd9b0c-180d-4280-b5fa-4704d0650efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Koopa">
+      <UniqueIdentifier>{d56885b2-93d9-4306-8a89-b5e9809949cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource Files\Bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\Enemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\Items.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\MetriodTileMap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\Port.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\SamusAranNormal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\SamusAranRocket.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\SamusAranVaria.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resource Files\Bullet.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\Enemy.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\Items.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\SuperMarioBros3Map.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\Port.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\SamusAran.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource Files\SuperMarioBros3Map.tmx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource Files\Test.tmx">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>TinyXMl</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>TinyXMl</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXMl</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXMl</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoSprite.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Sences</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSet.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioCollision.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioController.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawLine.cpp">
+      <Filter>Global\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Object\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Global\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawString.cpp">
+      <Filter>Global\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectGroup.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="RedKoopa.cpp">
+      <Filter>Object\Enemy\Koopa</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>TinyXMl</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>TinyXMl</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoSprite.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Sences</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSet.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefine.h" />
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioCollision.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioController.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawLine.h">
+      <Filter>Global\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Object\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Global\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawString.h">
+      <Filter>Global\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjectGroup.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="RedKoopa.h">
+      <Filter>Object\Enemy\Koopa</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

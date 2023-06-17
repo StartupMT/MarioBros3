@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <Textures textureId="tex-enemy">
+    <Sprite id="spr-goomba-idle-0" x="9" y="11"  w="16" h="16"/>
+    <Sprite id="spr-goomba-walk-0" x="9" y="11"  w="16" h="16"/>
+    <Sprite id="spr-goomba-walk-1" x="32" y="11"  w="16" h="16"/>
+    <Sprite id="spr-goomba-die-0" x="54" y="18"  w="16" h="9"/>
+    <Sprite id="spr-red-goomba-idle-0" x="104" y="70"  w="16" h="16"/>
+    <Sprite id="spr-red-goomba-idle-1" x="125" y="70"  w="16" h="16"/>
+    <Sprite id="spr-red-goomba-walk-0" x="104" y="70"  w="16" h="16"/>
+    <Sprite id="spr-red-goomba-walk-1" x="125" y="70"  w="16" h="16"/>
+    <Sprite id="spr-red-goomba-die-0" x="145" y="77"  w="16" h="9"/>
+    <Sprite id="spr-tan-para-goomba-idle-0" x="125" y="11"  w="20" h="19"/>
+    <Sprite id="spr-tan-para-goomba-idle-1" x="149" y="11"  w="20" h="19"/>
+    <Sprite id="spr-tan-para-goomba-flap-0" x="75" y="6"  w="20" h="24"/>
+    <Sprite id="spr-tan-para-goomba-flap-1" x="99" y="6"  w="20" h="24"/>
+    <Sprite id="spr-tiny-goomba-fall-0" x="174" y="21"  w="8" h="9"/>
+    <Sprite id="spr-red-para-goomba-idle-0" x="116" y="40"  w="20" h="19" yPivot="10"/>
+    <Sprite id="spr-red-para-goomba-idle-1" x="140" y="40"  w="20" h="19" yPivot="10"/>
+    <Sprite id="spr-red-para-goomba-flap-0" x="66" y="35"  w="20" h="24" yPivot="15"/>
+    <Sprite id="spr-red-para-goomba-flap-1" x="90" y="35"  w="20" h="24" yPivot="15"/>
+    <Sprite id="spr-red-venus-fire-trap-headdown-0" x="7" y="33"  w="16" h="32"/>
+    <Sprite id="spr-red-venus-fire-trap-headup-0" x="7" y="71"  w="16" h="32"/>
+    <Sprite id="spr-green-venus-fire-trap-headdown-0" x="6" y="166"  w="16" h="24"/>
+    <Sprite id="spr-green-venus-fire-trap-headup-1" x="6" y="195"  w="16" h="24"/>
+    <Sprite id="spr-red-piranha-plant-attack-0" x="171" y="35"  w="16" h="32"/>
+    <Sprite id="spr-red-piranha-plant-attack-1" x="171" y="72"  w="16" h="31"/>
+    <Sprite id="spr-green-piranha-plant-attack-0" x="7" y="108"  w="16" h="23"/>
+    <Sprite id="spr-green-piranha-plant-attack-1" x="7" y="137"  w="16" h="24"/>
+    <Sprite id="spr-red-koopa-troopa-move-0" x="28" y="67"  w="16" h="26" yPivot="18"/>
+    <Sprite id="spr-red-koopa-troopa-move-1" x="47" y="66"  w="16" h="27" yPivot="18"/>
+    <Sprite id="spr-red-koopa-troopa-crouch-0" x="71" y="75"  w="18" h="16"/>
+    <Sprite id="spr-red-koopa-troopa-shell-run-0" x="29" y="97"  w="16" h="16"/>
+    <Sprite id="spr-red-koopa-troopa-shell-run-1" x="50" y="96"  w="16" h="16"/>
+    <Sprite id="spr-red-koopa-troopa-shell-run-2" x="71" y="96"  w="16" h="16"/>
+    <Sprite id="spr-green-koopa-troopa-move-0" x="31" y="119"  w="16" h="26" yPivot="18"/>
+    <Sprite id="spr-green-koopa-troopa-move-1" x="50" y="118"  w="16" h="27" yPivot="18"/>
+    <Sprite id="spr-green-koopa-troopa-crouch-0" x="74" y="127"  w="18" h="16"/>
+    <Sprite id="spr-green-koopa-troopa-shell-run-0" x="32" y="149"  w="16" h="16"/>
+    <Sprite id="spr-green-koopa-troopa-shell-run-1" x="53" y="148"  w="16" h="16"/>
+    <Sprite id="spr-green-koopa-troopa-shell-run-2" x="74" y="148"  w="16" h="16"/>
+    <Sprite id="spr-green-koopa-paratroopa-fly-0" x="105" y="129"  w="16" h="27" yPivot="18"/>
+    <Sprite id="spr-green-koopa-paratroopa-fly-1" x="126" y="130"  w="16" h="26" yPivot="17"/>
+    <Sprite id="spr-green-koopa-paratroopa-fly-2" x="147" y="129"  w="16" h="27" yPivot="18"/>
+    <Sprite id="spr-red-koopa-paratroopa-fly-0" x="105" y="93"  w="16" h="27"/>
+    <Sprite id="spr-red-koopa-paratroopa-fly-1" x="126" y="94"  w="16" h="26"/>
+    <Sprite id="spr-red-koopa-paratroopa-fly-2" x="147" y="93"  w="16" h="27"/>
+    <Sprite id="spr-boomerang-brother-move-0" x="33" y="171"  w="16" h="24"/>
+    <Sprite id="spr-boomerang-brother-move-1" x="57" y="171"  w="16" h="24"/>
+    <Sprite id="spr-boomerang-brother-attack-0" x="74" y="167"  w="26" h="28" yPivot="16" xPivot="8"/>
+    <Sprite id="spr-boomerang-brother-attack-1" x="100" y="167"  w="26" h="28" yPivot="16" xPivot="8"/>
+    <Sprite id="spr-hammer-brother-move-0" x="175" y="112"  w="16" h="24"/>
+    <Sprite id="spr-hammer-brother-move-1" x="178" y="143"  w="16" h="24"/>
+    <Sprite id="spr-hammer-brother-attack-0" x="179" y="173"  w="16" h="24"/>
+    <Sprite id="spr-hammer-brother-attack-1" x="179" y="202"  w="16" h="24"/>
+    <Sprite id="spr-boomerang-spin-0" x="129" y="167"  w="15" h="16"/>
+    <Sprite id="spr-boomerang-spin-1" x="149" y="167"  w="16" h="15"/>
+    <Sprite id="spr-boomerang-spin-2" x="150" y="187"  w="16" h="15"/>
+    <Sprite id="spr-boomerang-spin-3" x="129" y="189"  w="15" h="16"/>
+    <Sprite id="spr-hammer-0" x="203" y="121"  w="14" h="16"/>
+    <Sprite id="spr-hammer-1" x="229" y="121"  w="16" h="14"/>
+    <Sprite id="spr-hammer-2" x="229" y="149"  w="14" h="16"/>
+    <Sprite id="spr-hammer-3" x="228" y="177"  w="16" h="14"/>
+    <Sprite id="spr-hammer-4" x="226" y="199"  w="14" h="16"/>
+    <Sprite id="spr-hammer-5" x="203" y="199"  w="16" h="14"/>
+    <Sprite id="spr-hammer-6" x="205" y="171"  w="14" h="16"/>
+    <Sprite id="spr-hammer-7" x="206" y="146"  w="16" h="14"/>
+    
+    <Sprite id="spr-red-venus-head-down-0" x="220" y="66" w="16" h="32"/>
+    <Sprite id="spr-red-venus-head-down-1" x="236" y="66" w="16" h="32"/>
+    <Sprite id="spr-red-venus-head-up-0" x="252" y="66" w="16" h="32"/>
+    <Sprite id="spr-red-venus-head-up-1" x="268" y="66" w="16" h="32"/>
+    
+    <Sprite id="spr-green-venus-head-down-0" x="220" y="34" w="16" h="32"/>
+    <Sprite id="spr-green-venus-head-down-1" x="236" y="34" w="16" h="32"/>
+    <Sprite id="spr-green-venus-head-up-0" x="252" y="34" w="16" h="32"/>
+    <Sprite id="spr-green-venus-head-up-1" x="268" y="34" w="16" h="32"/>
+ </Textures>
